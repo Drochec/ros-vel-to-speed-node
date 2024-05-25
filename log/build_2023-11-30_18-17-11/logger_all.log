@@ -1,0 +1,100 @@
+[4.199s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[4.200s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa425aaa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa42232b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa42232b0>>)
+[4.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.408s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/ros_ws/control'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.472s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'control'
+[4.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.860s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.860s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.985s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/ros_ws/control/install
+[5.047s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/ros_ws/epos/install
+[5.112s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 180 installed packages in /opt/ros/humble
+[5.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[5.437s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.437s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros_ws/control/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros_ws/control/install/control', 'merge_install': False, 'path': '/home/pi/ros_ws/control', 'symlink_install': True, 'test_result_base': None}
+[5.495s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.559s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ros_ws/control' with build type 'ament_python'
+[5.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'ament_prefix_path')
+[5.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_ws/control/install/control/share/control/hook/ament_prefix_path.ps1'
+[5.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_ws/control/install/control/share/control/hook/ament_prefix_path.dsv'
+[5.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_ws/control/install/control/share/control/hook/ament_prefix_path.sh'
+[5.701s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.701s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.132s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ros_ws/control'
+[7.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.051s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/pi/ros_ws/control/install/control/share/ament_index/resource_index/packages/control
+[9.052s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/pi/ros_ws/control/install/control/share/control/package.xml
+[9.053s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/pi/ros_ws/control/install/control/lib/control/control
+[9.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros_ws/control/build/control': PYTHONPATH=/home/pi/ros_ws/control/build/control/prefix_override:/home/pi/ros_ws/control/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros_ws/control/build/control/build --no-deps install_data
+[11.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonpath_develop')
+[11.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros_ws/control/build/control' returned '0': PYTHONPATH=/home/pi/ros_ws/control/build/control/prefix_override:/home/pi/ros_ws/control/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros_ws/control/build/control/build --no-deps install_data
+[11.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_ws/control/build/control/share/control/hook/pythonpath_develop.ps1'
+[11.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_ws/control/build/control/share/control/hook/pythonpath_develop.dsv'
+[11.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_ws/control/build/control/share/control/hook/pythonpath_develop.sh'
+[11.206s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_ws/control/install/control' for CMake module files
+[11.209s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_ws/control/install/control' for CMake config files
+[11.212s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_ws/control/install/control/lib'
+[11.213s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_ws/control/install/control/bin'
+[11.214s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_ws/control/install/control/lib/pkgconfig/control.pc'
+[11.215s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_ws/control/install/control/lib/python3.10/site-packages'
+[11.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonpath')
+[11.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_ws/control/install/control/share/control/hook/pythonpath.ps1'
+[11.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_ws/control/install/control/share/control/hook/pythonpath.dsv'
+[11.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_ws/control/install/control/share/control/hook/pythonpath.sh'
+[11.283s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_ws/control/install/control/bin'
+[11.283s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[11.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_ws/control/install/control/share/control/package.ps1'
+[11.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros_ws/control/install/control/share/control/package.dsv'
+[11.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_ws/control/install/control/share/control/package.sh'
+[11.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_ws/control/install/control/share/control/package.bash'
+[11.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_ws/control/install/control/share/control/package.zsh'
+[11.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros_ws/control/install/control/share/colcon-core/packages/control)
+[11.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.367s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.367s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.454s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.454s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.454s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.458s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.458s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros_ws/control/install/local_setup.ps1'
+[11.526s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros_ws/control/install/_local_setup_util_ps1.py'
+[11.533s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros_ws/control/install/setup.ps1'
+[11.597s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros_ws/control/install/local_setup.sh'
+[11.600s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros_ws/control/install/_local_setup_util_sh.py'
+[11.602s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros_ws/control/install/setup.sh'
+[11.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros_ws/control/install/local_setup.bash'
+[11.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros_ws/control/install/setup.bash'
+[11.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros_ws/control/install/local_setup.zsh'
+[11.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros_ws/control/install/setup.zsh'

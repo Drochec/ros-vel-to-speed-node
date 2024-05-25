@@ -1,0 +1,26 @@
+[3.566s] Invoking command in '/home/pi/ros_ws/control': PYTHONPATH=/home/pi/ros_ws/control/build/control/prefix_override:/home/pi/ros_ws/control/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/control build --build-base /home/pi/ros_ws/control/build/control/build install --record /home/pi/ros_ws/control/build/control/install.log --single-version-externally-managed
+[4.624s] running egg_info
+[4.626s] writing build/control/control.egg-info/PKG-INFO
+[4.628s] writing dependency_links to build/control/control.egg-info/dependency_links.txt
+[4.629s] writing entry points to build/control/control.egg-info/entry_points.txt
+[4.629s] writing requirements to build/control/control.egg-info/requires.txt
+[4.630s] writing top-level names to build/control/control.egg-info/top_level.txt
+[4.639s] reading manifest file 'build/control/control.egg-info/SOURCES.txt'
+[4.643s] writing manifest file 'build/control/control.egg-info/SOURCES.txt'
+[4.643s] running build
+[4.644s] running build_py
+[4.645s] copying control/control.py -> /home/pi/ros_ws/control/build/control/build/lib/control
+[4.647s] running install
+[4.648s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.648s]   warnings.warn(
+[4.649s] running install_lib
+[4.652s] copying /home/pi/ros_ws/control/build/control/build/lib/control/control.py -> /home/pi/ros_ws/control/install/control/lib/python3.10/site-packages/control
+[4.655s] byte-compiling /home/pi/ros_ws/control/install/control/lib/python3.10/site-packages/control/control.py to control.cpython-310.pyc
+[4.658s] running install_data
+[4.661s] running install_egg_info
+[4.668s] removing '/home/pi/ros_ws/control/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[4.670s] Copying build/control/control.egg-info to /home/pi/ros_ws/control/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[4.677s] running install_scripts
+[4.763s] Installing control script to /home/pi/ros_ws/control/install/control/lib/control
+[4.765s] writing list of installed files to '/home/pi/ros_ws/control/build/control/install.log'
+[4.883s] Invoked command in '/home/pi/ros_ws/control' returned '0': PYTHONPATH=/home/pi/ros_ws/control/build/control/prefix_override:/home/pi/ros_ws/control/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/control build --build-base /home/pi/ros_ws/control/build/control/build install --record /home/pi/ros_ws/control/build/control/install.log --single-version-externally-managed

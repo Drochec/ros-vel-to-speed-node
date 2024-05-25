@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.001832] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.002513] (control) JobStarted: {'identifier': 'control'}
+[0.099194] (-) TimerEvent: {}
+[0.201429] (-) TimerEvent: {}
+[0.302399] (-) TimerEvent: {}
+[0.403492] (-) TimerEvent: {}
+[0.504318] (-) TimerEvent: {}
+[0.605093] (-) TimerEvent: {}
+[0.705916] (-) TimerEvent: {}
+[0.806694] (-) TimerEvent: {}
+[0.907384] (-) TimerEvent: {}
+[1.008057] (-) TimerEvent: {}
+[1.108757] (-) TimerEvent: {}
+[1.209507] (-) TimerEvent: {}
+[1.310221] (-) TimerEvent: {}
+[1.410954] (-) TimerEvent: {}
+[1.511746] (-) TimerEvent: {}
+[1.612661] (-) TimerEvent: {}
+[1.713665] (-) TimerEvent: {}
+[1.814767] (-) TimerEvent: {}
+[1.915626] (-) TimerEvent: {}
+[2.016508] (-) TimerEvent: {}
+[2.117230] (-) TimerEvent: {}
+[2.218070] (-) TimerEvent: {}
+[2.318876] (-) TimerEvent: {}
+[2.419648] (-) TimerEvent: {}
+[2.520337] (-) TimerEvent: {}
+[2.621034] (-) TimerEvent: {}
+[2.721857] (-) TimerEvent: {}
+[2.822585] (-) TimerEvent: {}
+[2.923562] (-) TimerEvent: {}
+[3.024711] (-) TimerEvent: {}
+[3.125459] (-) TimerEvent: {}
+[3.226182] (-) TimerEvent: {}
+[3.326980] (-) TimerEvent: {}
+[3.427827] (-) TimerEvent: {}
+[3.490928] (control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/control', 'build', '--build-base', '/home/pi/ros_ws/control/build/control/build', 'install', '--record', '/home/pi/ros_ws/control/build/control/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ros_ws/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.88.253 50188 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/pi/ros_ws/control/install:/home/pi/ros_ws/epos/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros_ws/control/install/control:/home/pi/ros_ws/epos/install/chassis:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros_ws/control/build/control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.88.253 50188 192.168.88.252 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros_ws/control/build/control/prefix_override:/home/pi/ros_ws/control/install/control/lib/python3.10/site-packages:/home/pi/ros_ws/control/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros_ws/epos/install/chassis'}, 'shell': False}
+[3.527967] (-) TimerEvent: {}
+[3.628715] (-) TimerEvent: {}
+[3.729463] (-) TimerEvent: {}
+[3.830223] (-) TimerEvent: {}
+[3.930943] (-) TimerEvent: {}
+[4.031694] (-) TimerEvent: {}
+[4.132444] (-) TimerEvent: {}
+[4.233257] (-) TimerEvent: {}
+[4.357821] (-) TimerEvent: {}
+[4.458524] (-) TimerEvent: {}
+[4.559219] (-) TimerEvent: {}
+[4.613405] (control) StdoutLine: {'line': b'running egg_info\n'}
+[4.616154] (control) StdoutLine: {'line': b'writing build/control/control.egg-info/PKG-INFO\n'}
+[4.617382] (control) StdoutLine: {'line': b'writing dependency_links to build/control/control.egg-info/dependency_links.txt\n'}
+[4.618344] (control) StdoutLine: {'line': b'writing entry points to build/control/control.egg-info/entry_points.txt\n'}
+[4.619133] (control) StdoutLine: {'line': b'writing requirements to build/control/control.egg-info/requires.txt\n'}
+[4.619771] (control) StdoutLine: {'line': b'writing top-level names to build/control/control.egg-info/top_level.txt\n'}
+[4.627895] (control) StdoutLine: {'line': b"reading manifest file 'build/control/control.egg-info/SOURCES.txt'\n"}
+[4.631745] (control) StdoutLine: {'line': b"writing manifest file 'build/control/control.egg-info/SOURCES.txt'\n"}
+[4.632476] (control) StdoutLine: {'line': b'running build\n'}
+[4.633056] (control) StdoutLine: {'line': b'running build_py\n'}
+[4.633598] (control) StdoutLine: {'line': b'copying control/control.py -> /home/pi/ros_ws/control/build/control/build/lib/control\n'}
+[4.635796] (control) StdoutLine: {'line': b'running install\n'}
+[4.636540] (control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.637160] (control) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.637842] (control) StdoutLine: {'line': b'running install_lib\n'}
+[4.641046] (control) StdoutLine: {'line': b'copying /home/pi/ros_ws/control/build/control/build/lib/control/control.py -> /home/pi/ros_ws/control/install/control/lib/python3.10/site-packages/control\n'}
+[4.644054] (control) StdoutLine: {'line': b'byte-compiling /home/pi/ros_ws/control/install/control/lib/python3.10/site-packages/control/control.py to control.cpython-310.pyc\n'}
+[4.647291] (control) StdoutLine: {'line': b'running install_data\n'}
+[4.649748] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.656738] (control) StdoutLine: {'line': b"removing '/home/pi/ros_ws/control/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.658769] (control) StdoutLine: {'line': b'Copying build/control/control.egg-info to /home/pi/ros_ws/control/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info\n'}
+[4.659307] (-) TimerEvent: {}
+[4.665225] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[4.750864] (control) StdoutLine: {'line': b'Installing control script to /home/pi/ros_ws/control/install/control/lib/control\n'}
+[4.752614] (control) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros_ws/control/build/control/install.log'\n"}
+[4.759598] (-) TimerEvent: {}
+[4.860770] (-) TimerEvent: {}
+[4.871114] (control) CommandEnded: {'returncode': 0}
+[4.961092] (-) TimerEvent: {}
+[5.062455] (-) TimerEvent: {}
+[5.163577] (-) TimerEvent: {}
+[5.266053] (-) TimerEvent: {}
+[5.304510] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[5.308036] (-) EventReactorShutdown: {}
